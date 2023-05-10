@@ -1,0 +1,12 @@
+let time;
+time = 34;
+console.log('Старт поездки. Осталось минут: ' + time);
+time -= 15;
+console.log('Немного сториз в соцсетях. Осталось минут: ' + time);
+time -= 10;
+console.log('Немного не новостей, но событий. Осталось минут: ' + time);
+time = 0;
+console.log('Вы приехали. Добро пожаловать в Москву');
+let fahrenheit = 451;
+let celsius = (fahrenheit - 32) / 1.8;
+console.log(fahrenheit + ' градуса по Фаренгейту - это ' + celsius + ' градуса по Цельсию.');
